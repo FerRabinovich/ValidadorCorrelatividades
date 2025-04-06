@@ -65,7 +65,7 @@ public class ValidadorTest {
         materia3.setCorrelativas(Arrays.asList(materia1));
 
         // Alumno no aprueba la materia correlativa
-        alumno.setMateriaAprobada(materia2); // Aprobó Física, no Matemáticas
+        alumno.setMateriaAprobada(materia2); // Aprobó Física, no Analisis Matematico 1
 
         // Validar que el alumno no puede inscribirse
         assertFalse(validador.Validar(materia3, alumno, inscripcion));
